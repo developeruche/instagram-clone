@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.app {
+  background-color: #fafafa;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__headerImage {
+  width: 110px;
+  object-fit: contain;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__header {
+  position: sticky;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid lightgray;
+  object-fit: contain;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.login_logo {
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__posts {
+  padding: 20px;
+}
+.uploadVolume {
+  padding: 5px;
+  margin-top: 10px;
+  position: fixed;
+}
+.app__loginContainer .button {
+  background-color: rgba(255, 255, 255, 0.014) !important;
+  margin-right: 10px;
+  color: black;
+  border-radius: 4px;
+  border: 0.5px solid black;
 }
